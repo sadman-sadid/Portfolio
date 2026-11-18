@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sadman Sadid | Portfolio</title>
+  <meta name="description" content="Sadman Sadid - Web Developer building interactive and seamless digital experiences with cutting-edge Frontend development.">
+  <meta name="theme-color" content="#101010">
+  <link rel="icon" type="image/png" href="assets/img/favicon.png">
+  <link rel="preload" href="assets/fonts/montserrat-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <meta property="og:title" content="Sadman Sadid | Web Developer">
+  <meta property="og:description" content="Portfolio of Sadman Sadid, Web Developer specializing in Frontend and Interactive experiences.">
+  <meta property="og:type" content="website">
+  <link rel="stylesheet" href="css/style.css?v=7">
+</head>
+<body>
+  <a class="skip-link" href="#home">Skip to content</a>
+
+  <header class="site-header">
+    <nav id="main-nav" class="nav" aria-label="Primary">
+      <div class="nav-inner">
+        <ul class="nav-list">
+          <li>
+            <a href="#home" class="nav-link active">
+              <span class="nav-dot" aria-hidden="true"></span>
+              <span class="nav-icon" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                  <path d="M21 20C21 20.5523 20.5523 21 20 21H4C3.44772 21 3 20.5523 3 20V9.48907C3 9.18048 3.14247 8.88917 3.38606 8.69972L11.3861 2.47749C11.7472 2.19663 12.2528 2.19663 12.6139 2.47749L20.6139 8.69972C20.8575 8.88917 21 9.18048 21 9.48907V20ZM19 19V9.97815L12 4.53371L5 9.97815V19H19Z"></path>
+                </svg>
+              </span>
+              <span class="nav-text">Home</span>
+            </a>
+          </li>
+          <li>
+            <a href="#projects" class="nav-link">
+              <span class="nav-dot" aria-hidden="true"></span>
+              <span class="nav-icon" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                  <path d="M4 5V19H20V7H11.5858L9.58579 5H4ZM12.4142 5H21C21.5523 5 22 5.44772 22 6V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V4C2 3.44772 2.44772 3 3 3H10.4142L12.4142 5Z"></path>
+                </svg>
+              </span>
+              <span class="nav-text">Projects</span>
+            </a>
+          </li>
+          <li>
+            <a href="#pricing" class="nav-link">
+              <span class="nav-dot" aria-hidden="true"></span>
+              <span class="nav-icon" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                  <path d="M10.9042 2.10025L20.8037 3.51446L22.2179 13.414L13.0255 22.6064C12.635 22.9969 12.0019 22.9969 11.6113 22.6064L2.10001 13.0951C1.70948 12.7046 1.70948 12.0714 2.10001 11.6809L10.9042 2.10025ZM11.6113 4.22157L3.51441 12.3184L12.3184 21.1224L20.4152 13.0255L19.4017 6.03503L13.4249 5.20774L11.6113 4.22157ZM13.7324 10.2676C13.3419 10.6582 12.7087 10.6582 12.3182 10.2676C11.9277 9.87712 11.9277 9.24396 12.3182 8.85343C12.7087 8.46291 13.3419 8.46291 13.7324 8.85343C14.1229 9.24396 14.1229 9.87712 13.7324 10.2676Z"></path>
+                </svg>
+              </span>
+              <span class="nav-text">Pricing</span>
+            </a>
+          </li>
+          <li>
+            <a href="#contact" class="nav-link">
+              <span class="nav-dot" aria-hidden="true"></span>
+              <span class="nav-icon" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                  <path d="M21.7267 2.95694L16.2734 22.0432C16.1225 22.5716 15.7979 22.5956 15.5563 22.1126L11 13L1.9229 9.36919C1.41322 9.16532 1.41953 8.86022 1.95695 8.68108L21.0432 2.31901C21.5716 2.14285 21.8747 2.43866 21.7267 2.95694ZM19.0353 5.09647L6.81221 9.17085L12.4488 11.4255L15.4895 17.5068L19.0353 5.09647Z"></path>
+                </svg>
+              </span>
+              <span class="nav-text">Contact</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero" aria-labelledby="hero-title">
+      <div class="wrap hero-inner">
+        <div class="hero-top">
+          <p class="hero-greeting">Hi, I'm Sadman Sadid</p>
+          <div class="hero-intro">
+            <h1 id="hero-title" class="hero-title">Web <br> Developer</h1>
+            <p class="hero-lede">Transforming ideas into interactive and seamless digital experiences with cutting-edge <span class="shiny">Frontend</span> Development.</p>
+          </div>
+          <div class="hero-social">
+            <a target="_blank" rel="noopener noreferrer" href="https://github.com/sadman-sadid" aria-label="GitHub" class="social-btn">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="32" height="32" aria-hidden="true">
+                <path d="M12.001 2C6.47598 2 2.00098 6.475 2.00098 12C2.00098 16.425 4.86348 20.1625 8.83848 21.4875C9.33848 21.575 9.52598 21.275 9.52598 21.0125C9.52598 20.775 9.51348 19.9875 9.51348 19.15C7.00098 19.6125 6.35098 18.5375 6.15098 17.975C6.03848 17.6875 5.55098 16.8 5.12598 16.5625C4.77598 16.375 4.27598 15.9125 5.11348 15.9C5.90098 15.8875 6.46348 16.625 6.65098 16.925C7.55098 18.4375 8.98848 18.0125 9.56348 17.75C9.65098 17.1 9.91348 16.6625 10.201 16.4125C7.97598 16.1625 5.65098 15.3 5.65098 11.475C5.65098 10.3875 6.03848 9.4875 6.67598 8.7875C6.57598 8.5375 6.22598 7.5125 6.77598 6.1375C6.77598 6.1375 7.61348 5.875 9.52598 7.1625C10.326 6.9375 11.176 6.825 12.026 6.825C12.876 6.825 13.726 6.9375 14.526 7.1625C16.4385 5.8625 17.276 6.1375 17.276 6.1375C17.826 7.5125 17.476 8.5375 17.376 8.7875C18.0135 9.4875 18.401 10.375 18.401 11.475C18.401 15.3125 16.0635 16.1625 13.8385 16.4125C14.201 16.725 14.5135 17.325 14.5135 18.2625C14.5135 19.6 14.501 20.675 14.501 21.0125C14.501 21.275 14.6885 21.5875 15.1885 21.4875C19.259 20.1133 21.9999 16.2963 22.001 12C22.001 6.475 17.526 2 12.001 2Z"></path>
+              </svg>
+            </a>
+            <a target="_blank" rel="noopener noreferrer" href="https://wa.me/8801887408073" aria-label="WhatsApp" class="social-btn">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="32" height="32" aria-hidden="true">
+                <path d="M12.001 2C17.5238 2 22.001 6.47715 22.001 12C22.001 17.5228 17.5238 22 12.001 22C10.1671 22 8.44851 21.5064 6.97086 20.6447L2.00516 22L3.35712 17.0315C2.49494 15.5536 2.00098 13.8345 2.00098 12C2.00098 6.47715 6.47813 2 12.001 2ZM8.59339 7.30019L8.39232 7.30833C8.26293 7.31742 8.13607 7.34902 8.02057 7.40811C7.93392 7.45244 7.85348 7.51651 7.72709 7.63586C7.60774 7.74855 7.53857 7.84697 7.46569 7.94186C7.09599 8.4232 6.89729 9.01405 6.90098 9.62098C6.90299 10.1116 7.03043 10.5884 7.23169 11.0336C7.63982 11.9364 8.31288 12.8908 9.20194 13.7759C9.4155 13.9885 9.62473 14.2034 9.85034 14.402C10.9538 15.3736 12.2688 16.0742 13.6907 16.4482C13.6907 16.4482 14.2507 16.5342 14.2589 16.5347C14.4444 16.5447 14.6296 16.5313 14.8153 16.5218C15.1066 16.5068 15.391 16.428 15.6484 16.2909C15.8139 16.2028 15.8922 16.159 16.0311 16.0714C16.0311 16.0714 16.0737 16.0426 16.1559 15.9814C16.2909 15.8808 16.3743 15.81 16.4866 15.6934C16.5694 15.6074 16.6406 15.5058 16.6956 15.3913C16.7738 15.2281 16.8525 14.9166 16.8838 14.6579C16.9077 14.4603 16.9005 14.3523 16.8979 14.2854C16.8936 14.1778 16.8047 14.0671 16.7073 14.0201L16.1258 13.7587C16.1258 13.7587 15.2563 13.3803 14.7245 13.1377C14.6691 13.1124 14.6085 13.1007 14.5476 13.097C14.4142 13.0888 14.2647 13.1236 14.1696 13.2238C14.1646 13.2218 14.0984 13.279 13.3749 14.1555C13.335 14.2032 13.2415 14.3069 13.0798 14.2972C13.0554 14.2955 13.0311 14.292 13.0074 14.2858C12.9419 14.2685 12.8781 14.2457 12.8157 14.2193C12.692 14.1668 12.6486 14.1469 12.5641 14.1105C11.9868 13.8583 11.457 13.5209 10.9887 13.108C10.8631 12.9974 10.7463 12.8783 10.6259 12.7616C10.2057 12.3543 9.86169 11.9211 9.60577 11.4938C9.5918 11.4705 9.57027 11.4368 9.54708 11.3991C9.50521 11.331 9.45903 11.25 9.44455 11.1944C9.40738 11.0473 9.50599 10.9291 9.50599 10.9291C9.50599 10.9291 9.74939 10.663 9.86248 10.5183C9.97128 10.379 10.0652 10.2428 10.125 10.1457C10.2428 9.95633 10.2801 9.76062 10.2182 9.60963C9.93764 8.92565 9.64818 8.24536 9.34986 7.56894C9.29098 7.43545 9.11585 7.33846 8.95659 7.32007C8.90265 7.31384 8.84875 7.30758 8.79459 7.30402C8.66053 7.29748 8.5262 7.29892 8.39232 7.30833L8.59339 7.30019Z"></path>
+              </svg>
+            </a>
+            <a href="mailto:business.sadid01@gmail.com" aria-label="Email" class="social-btn">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32" aria-hidden="true">
+                <path fill="currentColor" d="m18.73 5.41l-1.28 1L12 10.46L6.55 6.37l-1.28-1A2 2 0 0 0 2 7.05v11.59A1.36 1.36 0 0 0 3.36 20h3.19v-7.72L12 16.37l5.45-4.09V20h3.19A1.36 1.36 0 0 0 22 18.64V7.05a2 2 0 0 0-3.27-1.64"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="marquee" aria-label="Technologies I work with">
+          <div class="marquee-track">
+            <div class="marquee-group">
+              <span class="marquee-item"><img src="assets/svg/tailwindcss.svg" alt="" width="30" height="30" loading="eager" decoding="async"><span>Tailwindcss</span></span>
+              <span class="marquee-item"><img src="assets/svg/next.svg" alt="" width="30" height="30" loading="eager" decoding="async"><span>Next</span></span>
+              <span class="marquee-item"><img src="assets/svg/nodejs.svg" alt="" width="30" height="30" loading="eager" decoding="async"><span>Nodejs</span></span>
+              <span class="marquee-item"><img src="assets/svg/HTML5.svg" alt="" width="30" height="30" loading="eager" decoding="async"><span>HTML5</span></span>
+              <span class="marquee-item"><img src="assets/svg/CSS3.svg" alt="" width="30" height="30" loading="eager" decoding="async"><span>CSS3</span></span>
+              <span class="marquee-item"><img src="assets/svg/javaScript.svg" alt="" width="30" height="30" loading="eager" decoding="async"><span>JavaScript</span></span>
+              <span class="marquee-item"><img src="assets/svg/git.svg" alt="" width="30" height="30" loading="eager" decoding="async"><span>Git</span></span>
+              <span class="marquee-item"><img src="assets/svg/supabase.svg" alt="" width="30" height="30" loading="eager" decoding="async"><span>Supabase</span></span>
+            </div>
+            <div class="marquee-group" aria-hidden="true">
+              <span class="marquee-item"><img src="assets/svg/tailwindcss.svg" alt="" width="30" height="30" loading="lazy" decoding="async"><span>Tailwindcss</span></span>
+              <span class="marquee-item"><img src="assets/svg/next.svg" alt="" width="30" height="30" loading="lazy" decoding="async"><span>Next</span></span>
+              <span class="marquee-item"><img src="assets/svg/nodejs.svg" alt="" width="30" height="30" loading="lazy" decoding="async"><span>Nodejs</span></span>
+              <span class="marquee-item"><img src="assets/svg/HTML5.svg" alt="" width="30" height="30" loading="lazy" decoding="async"><span>HTML5</span></span>
+              <span class="marquee-item"><img src="assets/svg/CSS3.svg" alt="" width="30" height="30" loading="lazy" decoding="async"><span>CSS3</span></span>
+              <span class="marquee-item"><img src="assets/svg/javaScript.svg" alt="" width="30" height="30" loading="lazy" decoding="async"><span>JavaScript</span></span>
+              <span class="marquee-item"><img src="assets/svg/git.svg" alt="" width="30" height="30" loading="lazy" decoding="async"><span>Git</span></span>
+              <span class="marquee-item"><img src="assets/svg/supabase.svg" alt="" width="30" height="30" loading="lazy" decoding="async"><span>Supabase</span></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="skills">
+          <div class="skills-panel">
+            <h2 class="skills-title">What I do?</h2>
+            <ul class="accordion">
+              <li class="accordion-item">
+                <button type="button" class="accordion-trigger" aria-expanded="false" aria-controls="skill-web">
+                  <svg class="accordion-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+                    <path d="M6 8h.01"></path>
+                    <path d="M10 8h.01"></path>
+                    <path d="M14 8h.01"></path>
+                  </svg>
+                  <span class="accordion-face">
+                    <span class="accordion-label">Web Development</span>
+                    <svg class="accordion-chevron" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                      <path d="M11.9999 13.1714L16.9497 8.22168L18.3639 9.63589L11.9999 15.9999L5.63599 9.63589L7.0502 8.22168L11.9999 13.1714Z"></path>
+                    </svg>
+                  </span>
+                </button>
+                <div class="accordion-panel" id="skill-web">
+                  <ul class="accordion-detail">
+                    <li>Single Page Applications (SPAs)</li>
+                    <li>Business websites</li>
+                    <li>Portfolio websites</li>
+                    <li>Mobile Friendly websites</li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="glitch" aria-hidden="true">
+            <div class="glitch-frame">
+              <canvas id="glitch-canvas"></canvas>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section projects" aria-labelledby="projects-title">
+      <div class="wrap">
+        <p class="eyebrow shiny">My work</p>
+        <h2 id="projects-title" class="section-title">Projects</h2>
+
+        <div class="projects-grid">
+          <article class="project">
+            <a class="project-media" href="projects/pressure-washing-master/index.html" target="_blank" rel="noopener noreferrer" aria-label="Open Project One">
+              <img src="assets/img/project-one.png" alt="Project One cover" width="600" height="400" loading="lazy" decoding="async">
+            </a>
+            <div class="project-info">
+              <div class="project-text">
+                <h3 class="project-title"><a href="projects/pressure-washing-master/index.html" target="_blank" rel="noopener noreferrer">SparkWash Pro</a></h3>
+                <span class="project-status">Pressure Washing Company</span>
+              </div>
+              <div class="project-actions">
+                <a target="_blank" rel="noopener noreferrer" href="projects/pressure-washing-master/index.html" aria-label="Preview Project One" class="icon-btn">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="28" height="28" aria-hidden="true">
+                    <path d="M16.0037 9.41421L7.39712 18.0208L5.98291 16.6066L14.5895 8H7.00373V6H18.0037V17H16.0037V9.41421Z"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project">
+            <a class="project-media" href="projects/landscaper-master/index.html" target="_blank" rel="noopener noreferrer" aria-label="Open Project Two">
+              <img src="assets/img/project-two.png" alt="Project Two cover" width="600" height="400" loading="lazy" decoding="async">
+            </a>
+            <div class="project-info">
+              <div class="project-text">
+                <h3 class="project-title"><a href="projects/landscaper-master/index.html" target="_blank" rel="noopener noreferrer">GreenScape</a></h3>
+                <span class="project-status">Landscaping Company</span>
+              </div>
+              <div class="project-actions">
+                <a target="_blank" rel="noopener noreferrer" href="projects/landscaper-master/index.html" aria-label="Preview Project Two" class="icon-btn">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="28" height="28" aria-hidden="true">
+                    <path d="M16.0037 9.41421L7.39712 18.0208L5.98291 16.6066L14.5895 8H7.00373V6H18.0037V17H16.0037V9.41421Z"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project">
+            <a class="project-media" href="projects/Restaurant/index.html" target="_blank" rel="noopener noreferrer" aria-label="Open Project Three">
+              <img src="assets/img/project-three.png" alt="Project Three cover" width="600" height="400" loading="lazy" decoding="async">
+            </a>
+            <div class="project-info">
+              <div class="project-text">
+                <h3 class="project-title"><a href="projects/Restaurant/index.html" target="_blank" rel="noopener noreferrer">Yummy.</a></h3>
+                <span class="project-status">Restaurant</span>
+              </div>
+              <div class="project-actions">
+                <a target="_blank" rel="noopener noreferrer" href="projects/Restaurant/index.html" aria-label="Preview Project Three" class="icon-btn">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="28" height="28" aria-hidden="true">
+                    <path d="M16.0037 9.41421L7.39712 18.0208L5.98291 16.6066L14.5895 8H7.00373V6H18.0037V17H16.0037V9.41421Z"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project">
+            <a class="project-media" href="projects/clinic/index.html" target="_blank" rel="noopener noreferrer" aria-label="Open Project Four">
+              <img src="assets/img/project-four.png" alt="Project Four cover" width="600" height="400" loading="lazy" decoding="async">
+            </a>
+            <div class="project-info">
+              <div class="project-text">
+                <h3 class="project-title"><a href="projects/clinic/index.html" target="_blank" rel="noopener noreferrer">Clinic+</a></h3>
+                <span class="project-status">Clinic</span>
+              </div>
+              <div class="project-actions">
+                <a target="_blank" rel="noopener noreferrer" href="projects/clinic/index.html" aria-label="Preview Project Four" class="icon-btn">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="28" height="28" aria-hidden="true">
+                    <path d="M16.0037 9.41421L7.39712 18.0208L5.98291 16.6066L14.5895 8H7.00373V6H18.0037V17H16.0037V9.41421Z"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+        <a href="projects.html" aria-label="View all projects" class="more-link">
+          <span>More projects</span>
+        </a>
+      </div>
+    </section>
+
+    <section id="pricing" class="section pricing" aria-labelledby="pricing-title">
+      <div class="wrap">
+        <p class="eyebrow shiny">Simple pricing</p>
+        <h2 id="pricing-title" class="section-title">Pricing</h2>
+        <p class="pricing-lede">Every project starts with a clear scope. Pick a starting point, and we'll shape the rest together.</p>
+
+        <div class="pricing-grid">
+          <article class="pricing-card" aria-labelledby="pricing-basic">
+            <div class="pricing-head">
+              <h3 id="pricing-basic" class="pricing-name">Starter</h3>
+              <p class="pricing-desc">A professional one-page site that gets your phone ringing.</p>
+            </div>
+            <p class="pricing-price">
+              <span class="pricing-amount">$199</span>
+              <span class="pricing-period">/ project</span>
+            </p>
+            <ul class="pricing-features">
+              <li>One-page, mobile-friendly sites</li>
+              <li>Click-to-call button and contact form that emails you</li>
+              <li>Google Maps embed and business hours</li>
+              <li>Basic SEO</li>
+              <li>1 revision round</li>
+              <li>Delivery in 3 days</li>
+            </ul>
+            <a class="pricing-cta" href="#contact">Start with Starter</a>
+          </article>
+
+          <article class="pricing-card featured" aria-labelledby="pricing-premium">
+            <span class="pricing-badge">Most popular</span>
+            <div class="pricing-head">
+              <h3 id="pricing-premium" class="pricing-name">Business</h3>
+              <p class="pricing-desc">A complete website that helps customers find and trust you.</p>
+            </div>
+            <p class="pricing-price">
+              <span class="pricing-amount">$399</span>
+              <span class="pricing-period">/ project</span>
+            </p>
+            <ul class="pricing-features">
+              <li>Everything in Starter.</li>
+              <li>Up to five responsive pages</li>
+              <li>Reviews and testimonials section</li>
+              <li>Google Analytics and Search Console setup</li>
+              <li>3 revision rounds</li>
+              <li>Delivery in 5 days</li>
+            </ul>
+            <a class="pricing-cta" href="#contact">Start with Business</a>
+          </article>
+
+          <article class="pricing-card" aria-labelledby="pricing-custom">
+            <div class="pricing-head">
+              <h3 id="pricing-custom" class="pricing-name">Custom</h3>
+              <p class="pricing-desc">A tailored build for products with bigger requirements.</p>
+            </div>
+            <p class="pricing-price">
+              <span class="pricing-amount pricing-amount-text">Let's talk</span>
+            </p>
+            <a class="pricing-cta" href="#contact">Discuss your project</a>
+          </article>
+        </div>
+
+        <p class="pricing-care">
+          <strong class="pricing-care-label">Monthly Care Plan:</strong>
+          <span class="pricing-care-price">$99/month</span>
+          <span>Domain and Hosting Management, Uptime Monitoring, Unlimited Edits and Backup.</span>
+        </p>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact" aria-labelledby="contact-title">
+      <div class="wrap">
+        <p class="eyebrow shiny">Let's talk</p>
+        <h2 id="contact-title" class="section-title">Contact</h2>
+
+        <div class="contact-grid">
+          <div class="contact-copy">
+            <p>Have a question or a project in mind? Feel free to reach out.</p>
+          </div>
+
+          <div class="contact-form-wrap">
+            <form id="contact-form" action="https://formspree.io/f/xyewwvwe" method="POST" class="contact-form">
+              <label class="sr-only" for="from_name">Name</label>
+              <input type="text" id="from_name" name="from_name" placeholder="Name" autocomplete="name" required>
+
+              <label class="sr-only" for="reply_to">Email</label>
+              <input type="email" id="reply_to" name="reply_to" placeholder="Email" autocomplete="email" required>
+
+              <label class="sr-only" for="message">Message</label>
+              <textarea id="message" name="message" placeholder="Message" rows="6" required></textarea>
+
+              <button type="submit">Submit</button>
+            </form>
+            <div id="form-message" class="form-message" role="status" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="22" height="22" aria-hidden="true">
+                <path d="M12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2ZM11.0026 16.5904L6.80385 12.3917L8.21806 10.9775L11.0026 13.762L16.4673 8.29734L17.8815 9.71155L11.0026 16.5904Z"></path>
+              </svg>
+              <span>Thank you for your message!</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap">
+      <div class="footer-grid">
+        <div class="footer-left">
+          <div class="footer-socials">
+            <a href="https://github.com/sadman-sadid" target="_blank" rel="noopener noreferrer" class="footer-social" aria-label="GitHub">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="32" height="32" aria-hidden="true">
+                <path d="M12.001 2C6.47598 2 2.00098 6.475 2.00098 12C2.00098 16.425 4.86348 20.1625 8.83848 21.4875C9.33848 21.575 9.52598 21.275 9.52598 21.0125C9.52598 20.775 9.51348 19.9875 9.51348 19.15C7.00098 19.6125 6.35098 18.5375 6.15098 17.975C6.03848 17.6875 5.55098 16.8 5.12598 16.5625C4.77598 16.375 4.27598 15.9125 5.11348 15.9C5.90098 15.8875 6.46348 16.625 6.65098 16.925C7.55098 18.4375 8.98848 18.0125 9.56348 17.75C9.65098 17.1 9.91348 16.6625 10.201 16.4125C7.97598 16.1625 5.65098 15.3 5.65098 11.475C5.65098 10.3875 6.03848 9.4875 6.67598 8.7875C6.57598 8.5375 6.22598 7.5125 6.77598 6.1375C6.77598 6.1375 7.61348 5.875 9.52598 7.1625C10.326 6.9375 11.176 6.825 12.026 6.825C12.876 6.825 13.726 6.9375 14.526 7.1625C16.4385 5.8625 17.276 6.1375 17.276 6.1375C17.826 7.5125 17.476 8.5375 17.376 8.7875C18.0135 9.4875 18.401 10.375 18.401 11.475C18.401 15.3125 16.0635 16.1625 13.8385 16.4125C14.201 16.725 14.5135 17.325 14.5135 18.2625C14.5135 19.6 14.501 20.675 14.501 21.0125C14.501 21.275 14.6885 21.5875 15.1885 21.4875C19.259 20.1133 21.9999 16.2963 22.001 12C22.001 6.475 17.526 2 12.001 2Z"></path>
+              </svg>
+            </a>
+            <a href="https://wa.me/8801887408073" target="_blank" rel="noopener noreferrer" class="footer-social" aria-label="WhatsApp">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="32" height="32" aria-hidden="true">
+                <path d="M12.001 2C17.5238 2 22.001 6.47715 22.001 12C22.001 17.5228 17.5238 22 12.001 22C10.1671 22 8.44851 21.5064 6.97086 20.6447L2.00516 22L3.35712 17.0315C2.49494 15.5536 2.00098 13.8345 2.00098 12C2.00098 6.47715 6.47813 2 12.001 2ZM8.59339 7.30019L8.39232 7.30833C8.26293 7.31742 8.13607 7.34902 8.02057 7.40811C7.93392 7.45244 7.85348 7.51651 7.72709 7.63586C7.60774 7.74855 7.53857 7.84697 7.46569 7.94186C7.09599 8.4232 6.89729 9.01405 6.90098 9.62098C6.90299 10.1116 7.03043 10.5884 7.23169 11.0336C7.63982 11.9364 8.31288 12.8908 9.20194 13.7759C9.4155 13.9885 9.62473 14.2034 9.85034 14.402C10.9538 15.3736 12.2688 16.0742 13.6907 16.4482C13.6907 16.4482 14.2507 16.5342 14.2589 16.5347C14.4444 16.5447 14.6296 16.5313 14.8153 16.5218C15.1066 16.5068 15.391 16.428 15.6484 16.2909C15.8139 16.2028 15.8922 16.159 16.0311 16.0714C16.0311 16.0714 16.0737 16.0426 16.1559 15.9814C16.2909 15.8808 16.3743 15.81 16.4866 15.6934C16.5694 15.6074 16.6406 15.5058 16.6956 15.3913C16.7738 15.2281 16.8525 14.9166 16.8838 14.6579C16.9077 14.4603 16.9005 14.3523 16.8979 14.2854C16.8936 14.1778 16.8047 14.0671 16.7073 14.0201L16.1258 13.7587C16.1258 13.7587 15.2563 13.3803 14.7245 13.1377C14.6691 13.1124 14.6085 13.1007 14.5476 13.097C14.4142 13.0888 14.2647 13.1236 14.1696 13.2238C14.1646 13.2218 14.0984 13.279 13.3749 14.1555C13.335 14.2032 13.2415 14.3069 13.0798 14.2972C13.0554 14.2955 13.0311 14.292 13.0074 14.2858C12.9419 14.2685 12.8781 14.2457 12.8157 14.2193C12.692 14.1668 12.6486 14.1469 12.5641 14.1105C11.9868 13.8583 11.457 13.5209 10.9887 13.108C10.8631 12.9974 10.7463 12.8783 10.6259 12.7616C10.2057 12.3543 9.86169 11.9211 9.60577 11.4938C9.5918 11.4705 9.57027 11.4368 9.54708 11.3991C9.50521 11.331 9.45903 11.25 9.44455 11.1944C9.40738 11.0473 9.50599 10.9291 9.50599 10.9291C9.50599 10.9291 9.74939 10.663 9.86248 10.5183C9.97128 10.379 10.0652 10.2428 10.125 10.1457C10.2428 9.95633 10.2801 9.76062 10.2182 9.60963C9.93764 8.92565 9.64818 8.24536 9.34986 7.56894C9.29098 7.43545 9.11585 7.33846 8.95659 7.32007C8.90265 7.31384 8.84875 7.30758 8.79459 7.30402C8.66053 7.29748 8.5262 7.29892 8.39232 7.30833L8.59339 7.30019Z"></path>
+              </svg>
+            </a>
+            <a href="mailto:business.sadid01@gmail.com" class="footer-social" aria-label="Email">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32" aria-hidden="true">
+                <path fill="currentColor" d="m18.73 5.41l-1.28 1L12 10.46L6.55 6.37l-1.28-1A2 2 0 0 0 2 7.05v11.59A1.36 1.36 0 0 0 3.36 20h3.19v-7.72L12 16.37l5.45-4.09V20h3.19A1.36 1.36 0 0 0 22 18.64V7.05a2 2 0 0 0-3.27-1.64"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-legal">
+        <p>
+          <span>Copyright &copy; All rights reserved by <a target="_blank" rel="noopener noreferrer" href="https://github.com/sadman-sadid">Sadman Sadid</a></span>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js?v=4"></script>
+</body>
+</html>
